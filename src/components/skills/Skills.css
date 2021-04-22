@@ -1,0 +1,290 @@
+.Skills-Container {
+    width: 100%;
+    height: 38rem ;
+    background-color: blueviolet;
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.Skills-Card1 {
+    width: 30%;
+    height: 47%;
+    background-color: white;
+    border-radius: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+    transition: all 0.2s ease;
+    cursor: pointer;
+    animation: CardOne 1s 0s linear both;
+}
+@keyframes CardOne {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.Skills-Card2 {
+    width: 30%;
+    height: 47%;
+    background-color: white;
+    border-radius: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+    transition: all 0.2s ease;
+    cursor: pointer;
+    animation: CardTwo 1s 0.3s linear both;
+
+}
+@keyframes CardTwo {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.Skills-Card3 {
+    width: 30%;
+    height: 47%;
+    background-color: white;
+    border-radius: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+    transition: all 0.2s ease;
+    cursor: pointer;
+    animation: CardThree 1s 0.6s linear both;
+
+}
+@keyframes CardThree {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.Skills-Card4 {
+    width: 30%;
+    height: 47%;
+    background-color: white;
+    border-radius: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+    transition: all 0.2s ease;
+    cursor: pointer;
+    animation: CardFour 1s 0.9s linear both;
+
+}
+@keyframes CardFour {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.Skills-Card5 {
+    width: 30%;
+    height: 47%;
+    background-color: white;
+    border-radius: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+    transition: all 0.2s ease;
+    cursor: pointer;
+    animation: CardFive 1s 1.2s linear both;
+
+}
+@keyframes CardFive {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.Skills-Card6 {
+    width: 30%;
+    height: 47%;
+    background-color: white;
+    border-radius: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+    transition: all 0.2s ease;
+    cursor: pointer;
+    animation: CardSix 1s 1.5s linear both;
+
+}
+@keyframes CardSix {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.Skills-Card1:hover {
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2);
+
+}
+.Skills-Card2:hover {
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2);
+
+}
+.Skills-Card3:hover {
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2);
+
+}
+.Skills-Card4:hover {
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2);
+
+}
+.Skills-Card5:hover {
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2);
+
+}
+.Skills-Card6:hover {
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2);
+
+}
+
+.Card-image {
+    width: 23.6%;
+    height: 30%;
+    overflow: hidden;
+
+}
+.Card-image img {
+    width: 100%;
+    height: 100%;
+}
+.Card-p {
+    height: 60%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .Skills-Container {
+        height: 250vh ;
+        width: 100%;
+        margin-top: 1rem;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    
+    }
+    .Skills-Card1 {
+        width: 95%;
+        height: 15.9%;
+        background-color: white;
+        border-radius: 0.4rem;
+        display: flex;
+        font-weight: 900;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+        transition: all 0.2s ease;
+        cursor: pointer;
+    }
+    .Skills-Card2 {
+        width: 95%;
+        height: 15.9%;
+        background-color: white;
+        border-radius: 0.4rem;
+        display: flex;
+        font-weight: 900;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+        transition: all 0.2s ease;
+        cursor: pointer;
+    }
+    .Skills-Card3 {
+        width: 95%;
+        height: 15.9%;
+        background-color: white;
+        border-radius: 0.4rem;
+        display: flex;
+        font-weight: 900;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+        transition: all 0.2s ease;
+        cursor: pointer;
+    }
+    .Skills-Card4 {
+        width: 95%;
+        height: 15.9%;
+        background-color: white;
+        border-radius: 0.4rem;
+        display: flex;
+        font-weight: 900;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+        transition: all 0.2s ease;
+        cursor: pointer;
+    }
+    .Skills-Card5 {
+        width: 95%;
+        height: 15.9%;
+        background-color: white;
+        border-radius: 0.4rem;
+        display: flex;
+        font-weight: 900;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+        transition: all 0.2s ease;
+        cursor: pointer;
+    }
+    .Skills-Card6 {
+        width: 95%;
+        height: 15.9%;
+        background-color: white;
+        border-radius: 0.4rem;
+        display: flex;
+        font-weight: 900;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+        transition: all 0.2s ease;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,232 @@
+.About-Container {
+    width: 100%;
+    height: 62vh;
+    background-color: blueviolet;
+    margin: 0 auto;
+    margin-top: 3rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.About-Image {
+    width: 47%;
+    height: 100%;
+    background-color: white;
+    margin-left: 1rem;
+    transform: rotate(50deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    cursor: pointer;
+    animation: animationOne 1s linear both;
+
+}
+@keyframes animationOne {
+    from {
+        opacity: 0;
+        transform: rotate(0deg);
+    }
+    to {
+        opacity: 1;
+        transform: 180deg;
+    }
+}
+.DownloadCvBtn {
+    width: 25%;
+    height: 10%;
+    transform: rotate(-50deg);
+    margin-left: 4rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    transition: all 0.5s ease-in-out;
+}
+.DownloadCvBtn2 {
+    width: 25%;
+    height: 10%;
+    transform: rotate(-50deg);
+    margin-left: 5rem;
+    margin-bottom: 2.5rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid yellow;
+    background-color: blueviolet;
+    color: white;
+    transition: all 1s ease-in;
+    animation: Cvbtn 1s  both;
+    
+}
+@keyframes Cvbtn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.About-Image img {
+    width: 80%;
+    height: 129%;
+    transform: rotate(-50deg);
+
+}
+.IconReact {
+    position: absolute;
+    width: 6rem;
+    height: 6rem;
+    margin-right: 30rem;
+    margin-top: 21rem;
+    margin-left: 24.1rem;
+    animation: spin both 1s infinite linear ;
+    
+}
+.IconReact img {
+    width: 100%;
+    height: 100%;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.About-Name {
+    width: 40%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.About-Name h1 {
+    font-size: 4rem;
+    animation: ainmationFive 1s 1.5s linear both;
+}
+@keyframes ainmationFive {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.About-Name h2 {
+    font-size: 3rem;
+    animation: animationTwo 1s 1s linear both;
+
+}
+@keyframes animationTwo {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.About-Name h3 {
+    font-size: 2rem;
+    animation: animationThree 1s 2s linear both;
+
+}
+@keyframes animationThree {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.text-loop {
+    color: yellow;
+    text-transform: uppercase;
+    animation: animationFour 1s linear both;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    *{
+        overflow-x: hidden;
+    }
+    .DownloadCvBtn2 {
+        width: 40%;
+      
+        
+    }
+    .About-Container {
+        width: 100%;
+        height: 100vh;
+        margin-top: 0.2rem;
+        flex-direction: column-reverse;
+        
+    }
+    
+    .About-Image {
+        width: 85%;
+        height: 45%;
+        background-color: white;
+        margin-left: 1rem;
+        transform: rotate(50deg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        cursor: pointer;
+        justify-content: space-between;
+        
+    }
+    .About-Name {
+        width: 80%;
+        height: 45%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+    }
+    .About-Name h1 {
+        font-size: 2.5rem;
+        margin-top: -1rem;
+        
+    }
+    .About-Name h2 {
+        font-size: 2rem;
+        margin-top: -1rem;
+
+    }
+    .About-Name h3 {
+        font-size: 1.5rem;
+        margin-top: -1rem;
+
+    }
+    .IconReact {
+        position: absolute;
+        width: 3rem;
+        height: 3rem;
+        margin-top: 11.5rem;
+        margin-left: 4.9rem;
+        animation: spin both 1s infinite linear ;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .IconReact img {
+        width: 100%;
+        height: 100%;
+    }
+}

@@ -1,0 +1,177 @@
+
+ .Navbar-Mobile {
+        width: 100%;
+        height: 4.2rem;
+        z-index: 9999;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        overflow: hidden;
+        background: blueviolet;
+    transition: all 400ms cubic-bezier(.47,1.64,.41,.8);
+    
+
+ }
+ .Navbar-Mobile2 {
+    width: 100%;
+    height: 4.2rem;
+    position: fixed;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background: blueviolet;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(236, 236, 236, 0.678);
+    transition: all 400ms cubic-bezier(.47,1.64,.41,.8);
+
+ }
+.Navbar-Mobile-Logo {
+    width: 28%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+.menu-toggle- {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-toggle {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bar {
+    width: 70%;
+    height: 11%;
+    background: yellow;
+    margin: 0.1rem;
+    border-radius: 2px;
+    animation: X4 0.5s linear both;
+    transform: rotate(45deg);
+
+}
+.bar- {
+    width: 70%;
+    height: 11%;
+    background: yellow;
+    margin: 0.1rem;
+    border-radius: 2px;
+    animation: X3 0.5s linear both;
+
+}
+@keyframes X3 {
+    from {
+        transform: rotate(45deg);
+
+    }
+    to {
+        transform: rotate(0);
+    }
+}
+@keyframes X4 {
+    from {
+        transform: rotate(-45deg);
+
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+.menu-toggle- {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar-- {
+    width: 2.4rem;
+    height: 0.4rem;
+    background: black;
+    margin: 0.1rem;
+    border-radius: 10px;
+    position: absolute;
+    transform: rotate(45deg);
+    animation: X1 0.5s linear both;
+    background: yellow;
+}
+.bar--- {
+    width: 2.4rem;
+    height: 0.4rem;
+    background: black;
+    margin: 0.1rem;
+    border-radius: 2px;
+    position: absolute;
+    border-radius: 10px;
+    animation: X2 0.5s linear both;
+    background: yellow;
+}
+@keyframes X1 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-45deg);
+    }
+}
+@keyframes X2 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(45deg);
+    }
+}
+.Nav-Mobile {
+    width: 100%;
+    height: 80vh;
+    background: white;
+    position: fixed;
+    z-index: 999999;
+    margin-top: 4.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    animation: NavAniamtion 0.8s linear both;
+    transition: all 1s ease-out;
+}
+@keyframes  NavAniamtion{
+    from {
+        margin-left: -27rem;
+    }
+    to {
+        margin-left: 0rem;
+    }
+}
+
+.Nav-Mobile-items {
+    width: 100%;
+    height: 15% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+    font-weight: 900;
+    border-bottom: 1px solid rgba(236, 236, 236, 0.678);
+
+}

@@ -1,0 +1,118 @@
+.Container {
+    width: 100%;
+    height: 85vh;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+
+.Container-Image {
+    width: 10rem;
+    height: 10rem;
+    border: yellow 2px solid;
+    border-radius: 50%;
+    display: flex;
+    margin-top: 8.5rem;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    animation: imageanimation 1.9s ease-out;
+}
+@keyframes imageanimation {
+    from {
+        opacity: 0;
+        margin-right: 90rem;
+    }
+    to {
+        opacity: 1;
+        margin-right: 0rem;
+    }
+}
+.Container-Image img {
+    width: 100%;
+    height: 100%;
+}
+.Container-Title {
+    width: 90%;
+    height: 40%;
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+    opacity: 0;
+    animation: titleanimation 2s  1s ease both;
+}
+@keyframes titleanimation {
+     from {
+        margin-left: 90rem;
+        opacity: 0;
+    }
+    to {
+        margin-left: 0rem;
+        opacity: 1;
+    }
+}
+.ask-color {
+    color: yellow;
+    font-weight: bold;
+}
+
+.Container-BTN {
+    width: 10%;
+    height: 6.5%;
+    border-radius: 0.4rem;
+    border: 2px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+    transition: all 0.2s ease-in;
+}
+
+
+.Container-BTN:hover {
+    background-color: yellow;
+    color: black;
+    animation: btnanimation 2s ease-in;
+}
+
+
+/* --------------- Mobile ------------*/
+
+
+@media only screen and (max-width: 768px) {
+    
+    .Container {
+        width: 100%;
+        height: 100vh;
+      
+    }
+    .Container-Image {
+        width: 7rem;
+        height: 7rem;
+        
+    }
+    .Container-Title {
+        
+        font-size: 2.2rem;
+        
+    }
+    .Container-BTN {
+        width: 24%;
+        height: 7%;
+        border-radius: 0.4rem;
+        border: 2px solid yellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        cursor: pointer;
+        margin-bottom: 0.5rem;
+        transition: all 0.2s ease-in;
+    }
+}
